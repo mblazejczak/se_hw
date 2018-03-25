@@ -15,4 +15,4 @@ ADD main.py $APP_DIR
 
 
 CMD PYTHONPATH=$PYTHONPATH:/usr/src/hello_world_printer \
-  FLASK_APP=hello_world flask run --host=127.0.0.1
+  FLASK_APP=hello_world flask run --host=0.0.0.0
