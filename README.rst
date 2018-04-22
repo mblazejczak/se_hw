@@ -85,5 +85,5 @@ Materiały
 .. image:: https://travis-ci.org/mblazejczak/se_hw.svg?branch=master
     :target: https://travis-ci.org/mblazejczak/se_hw
 
-.. image:: https://app.statuscake.com/button/index.php?Track=3115435&Days=1&Design=2
+.. image:: https://app.statuscake.com/button/index.php?Track=3115435&Days=1000&Design=1
     :target: https://app.statuscake.com
