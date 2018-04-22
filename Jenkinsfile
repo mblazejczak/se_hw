@@ -18,7 +18,7 @@ pipeline {
                       [$class: 'SkippedThreshold', failureThreshold: '0'],
                       [$class: 'FailureThreshold', failureThreshold: '1']],
                       tools: [[$class: 'JunitType', pattern: 'test_results.xml']]])
-	            sh 'make test'
+	            sh 'make test
         	}
         }
     }
