@@ -5,7 +5,9 @@ deps:
 	pip install -r test_requirements.txt
 
 test:
-	PYTHONPATH=. py.test
+	PYTHONPATH=. py.test \
+  PYTHONPATH=. py.test --verbose -s --cov=. \
+	PYTHONPATH=. py.test -s --cov=. --junit-xml=test_results.xml \
 
 lint:
 	flake8 hello_world test
